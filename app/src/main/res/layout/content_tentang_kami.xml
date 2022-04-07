@@ -1,0 +1,219 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:background="#ffffff">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Program Kerja dan Kegiatan di KPSI"
+            android:id="@+id/textViewProgramKerja"
+            android:layout_marginBottom="10dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="KPSI memiliki beberapa program yang dapat diikuti oleh ODMK, keluarganya, dan masyarakat lain yang peduli."
+
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1. Seminar Awam tentang Gangguan Kejiwaan"
+
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="KPSI secara berkala mengadakan edukasi bagi masyarakat umum untuk membangun kepedulian dan pengetahuan tentang masalah kesehatan jiwa. Untuk tahun 2013, tema utama yang menjadi pembahasan adalah skizofrenia dan gangguan bipolar."
+
+            android:layout_marginBottom="10dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="2. Psikoedukasi (Penerangan Kejiwaan untuk Anggota)."
+
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Perkembangan pengetahuan dan pengalaman mengenai masalah kesehatan jiwa berkembang terus seiring waktu. KPSI secara  kontinu dan berkala mengadakan psikoedukasi sebagai sarana untuk memperkaya pengetahuan anggota baik mengenai skizofrenia maupun gangguan kejiwaan lainnya. "
+
+            android:layout_marginBottom="10dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="3. Advokasi serta Penguatan Hukum dan HAM."
+
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="KPSI yakin bahwa masalah kesehatan jiwa bukan hanya menjadi tanggung jawab masyarakat semata tapi juga, yang utama, memerlukan peranan institusi kenegaraan untuk menanganinya. KPSI mengadakan advokasi ke berbagai institusi kenegaraan untuk terwujudnya bangsa Indonesia sehat jiwa.  Selain itu, ihwal hukum dan HAM adalah aspek penting dalam masalah kesehatan jiwa. KPSI tidak hanya berperan dalam melindungi anggotanya ketika terlibat dalam permasalahan hukum dan HAM, tapi juga berperan dalam penyusunan peraturan yang menaungi hak-hak ODMK, seperti RUU Kesehatan Jiwa. "
+
+            android:layout_marginBottom="10dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="4. Kelompok Swa-Bantu untuk ODMK dan Keluarganya."
+
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Kelompok swa-bantu (self-help group) adalah kelompok kecil yang saling berbagi pengalaman dan saling membantu dalam memecahkan permasalahan melalui wicara. Kelompok swa-bantu bagi ODMK diadakan setiap hari Selasa dan Kamis pukul 16.00 WIB. Kelompok swa-bantu bagi keluarga diadakan setiap Sabtu pukul 12.00 WIB."
+
+            android:layout_marginBottom="10dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="5. Terapi Seni dan Kreativitas"
+
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Dengan dibimbing oleh dosen seni rupa Universitas Negeri Jakarta (UNJ), KPSI mengadakan kegiatan seni dan kreativitas seperti melukis dan membuat kerajinan tangan sebagai terapi bagi ODMK dan keluarganya pada hari Minggu setiap pekannya."
+
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="6. Konseling dengan Psikolog Klinis"
+
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Bagi Anda yang membutuhkan solusi kejiwaan, KPSI menyediakan konseling dengan psikolog klinis setiap hari Jumat pukul 14.00 – 18.00 WIB. Pendaftaran bagi konseling ini dibuka sehari sebelumnya via telepon."
+
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="7. Yoga"
+
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Ketenangan dan keseimbangan ragawi serta kejiwaan amat penting bagi perjalanan pemulihan ODMK. KPSI menyediakan terapi melalui yoga dengan dibimbing oleh profesional di bidang tersebut setiap hari Sabtu pukul 10.00 WIB."
+
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="8. Website tentang Gangguan Kejiwaan"
+
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Internet adalah media yang efektif untuk penyebarluasan pengetahuan kesehatan jiwa. Mulai pertengahan tahun 2013, KPSI akan memiliki website tentang masalah kesehatan jiwa dengan banyak materi, seperti eBook yang dapat didownload. Anggota website yang teregistrasi akan mendapatkan hak yang lebih dibandingkan dengan pengguna umum."
+
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=" 9. Kopi Darat Anggota KPSI "
+
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Sebagai kelompok yang berbasis online, KPSI perlu saling bertatap-muka dan saling bicara. KPSI mengadakan kopi darat (pertemuan langsung) secara berkala. Anda dapat menghubungi staf di KPSI untuk setiap jadwal pertemuan yang akan diadakan."
+
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="10. Newsletter Triwulanan"
+
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Kabar mengenai kegiatan KPSI beserta ringkasan materi mengenai kesehatan jiwa tidak hanya bisa didapatkan dengan akses internet, tapi melalui material tercetak, yaitu newsletter setiap 3 bulan sekali."
+
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="11. Pemutaran Film"
+
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Ingin bersantai di akhir pekan? KPSI mengadakan pemutaran film, tidak hanya yang bertemakan kesehatan jiwa, tetapi juga yang bertema umum dan dapat melepaskan kelelahan dan ketegangan, pada hari Minggu sebulan sekali."
+
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="12. Perpustakaan "
+
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Membutuhkan bacaan yang mencerahkan atau menghibur? KPSI menyediakan buku-buku umum serta buku lainnya, mulai dari yang bertema serius hingga yang menyenangkan, seperti kisah nyata ODMK, panduan masalah kesehatan jiwa hingga komik yang menghilangkan kesedihan hati dan pikiran."
+
+            android:layout_marginBottom="10dp"/>
+
+
+    </LinearLayout>
+
+  </ScrollView>

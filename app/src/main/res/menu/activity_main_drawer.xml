@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_tentang"
+            android:icon="@drawable/about"
+            android:title="Tentang KPSI" />
+
+        <item
+            android:id="@+id/nav_donasi"
+            android:icon="@drawable/love"
+            android:title="Donasi" />
+
+
+    </group>
+    <item android:title="Kontak Kami">
+        <menu>
+            <item
+                android:id="@+id/nav_kontak"
+                android:icon="@drawable/map"
+                android:title="Alamat dan Kontak KPSI" />
+            <item
+                android:id="@+id/nav_website"
+                android:icon="@drawable/www"
+                android:title="Website KPSI" />
+            <item
+                android:id="@+id/nav_facebook"
+                android:icon="@drawable/facebook_icon"
+                android:title="Facebook Grup KPSI" />
+            <item
+                android:id="@+id/nav_twitter"
+                android:icon="@drawable/twitter_icon"
+                android:title="Twitter KPSI" />
+        </menu>
+
+    </item>
+    <item android:title="Pengembang">
+        <menu>
+            <item
+                android:id="@+id/nav_developer"
+                android:icon="@drawable/jeffreylim"
+                android:title="Tentang" />
+        </menu>
+    </item>
+
+</menu>

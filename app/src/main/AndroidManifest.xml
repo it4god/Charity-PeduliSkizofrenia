@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.limpingen.kpsi">
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Donasi"
+            android:label="@string/title_activity_donasi"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Pengembang"
+            android:label="@string/title_activity_pengembang"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".TentangKami"
+            android:label="@string/title_activity_tentang_kami"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".KontakKami"
+            android:label="@string/title_activity_kontak_kami"
+            android:parentActivityName=".MainActivity"></activity>
+    </application>
+
+</manifest>

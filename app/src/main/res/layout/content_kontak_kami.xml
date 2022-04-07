@@ -1,0 +1,88 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:background="#ffffff">
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Alamat dan Kontak KPSI"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Anda dapat mengunjungi Sekretariat KPSI\ndi Jl. Jatinegara Timur 99 Balimester \nKampung Melayu \nJakarta Timur \n(di belakang Holland Bakery Kampung Melayu) \nsetiap hari Selasa-Minggu (hari Senin libur) \npada jam kerjanya pukul 09.00 - 17.00 WIB.   \n\nTelepon (0622) 18579618  \n\nEmail info.kpsi@gmail.com  \n\nWebsite http://www.skizofrenia.org/  \n\nGrup di Facebook Komunitas Peduli Skizofrenia Indonesia  \nhttps://www.facebook.com/groups/skizofrenia/   \n\nTwitter @kpsi_pusat "
+
+                />
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/imageButtonWebsiteKPSI"
+                    android:layout_margin="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_launcher"
+                    android:background="#ffffff" />
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/imageButtonFBKPSI"
+                    android:src="@drawable/facebook"
+                    android:scaleType="fitXY"
+                    android:background="#ffffff"
+
+                    android:layout_margin="10dp" />
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/imageButtonTwitter"
+                    android:layout_margin="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/twitterbird"
+                    android:background="#ffffff"
+                    android:visibility="visible" />
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="\n"
+                android:layout_marginBottom="20dp"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

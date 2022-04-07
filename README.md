@@ -1,2 +1,2 @@
-# Charity-PeduliSkizofrenia
+# Charity-Peduli-Skizofrenia
  

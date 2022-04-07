@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="org.limpingen.kpsi.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:background="#ffffff">
+
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        android:id="@+id/imageViewLogo"
+        android:src="@drawable/ic_launcher" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:text="Komunitas Peduli Skizofrenia Indonesia (KPSI) berdiri pada tahun 2009, saat grup Komunitas Peduli Skizofrenia Indonesia (KPSI) di Facebook dibuat. \n\nSaat ini KPSI telah memiliki sekitar 19.300 orang di grupnya tersebut. KPSI memiliki beberapa program kerja yang berorientasi pada aspek legal dan hukum, edukasi serta layanan terhadap orang dengan masalah kejiwaan, terutama mereka yang mengalami skizofrenia (gangguan jiwa dengan halusinasi). \n\nAnggota KPSI datang dari penderita dan keluarganya, kalangan medis serta masyarakat umum. Dalam kegiatan-kegiatan di KPSI, hal yang membahagiakan adalah terbentuknya suasana saling terbuka, mendukung, mencerahkan baik antar-sesama orang dengan masalah kejiwaan (ODMK), keluarga, kalangan medis, dan orang lainnya yang peduli. " />
+</LinearLayout>
+</ScrollView>
+
+    </LinearLayout>

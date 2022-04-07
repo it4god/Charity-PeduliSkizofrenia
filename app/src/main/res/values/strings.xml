@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Peduli Skizofrenia</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Info</string>
+    <string name="title_activity_donasi">Donasi</string>
+
+    <string-array name="donation_google_catalog_values">
+        <item>Rp. 10.000</item>
+        <item>Rp. 25.000</item>
+        <item>Rp. 50.000</item>
+        <item>Rp. 100.000</item>
+        <item>Rp. 200.000</item>
+        <item>Rp. 500.000</item>
+    </string-array>
+
+
+    <string name="donations__button_close">Close</string>
+    <string name="donations__flattr">Flattr</string>
+    <string name="donations__description">Do you find this application useful?\nSupport its development by sending a donation to the developer!</string>
+    <string name="donations__flattr_description">Flattr takes 10 % as a monthly fee!</string>
+    <string name="donations__google_android_market">Google Play Store</string>
+    <string name="donations__google_android_market_not_supported_title">In-App Donations are not supported.</string>
+    <string name="donations__google_android_market_not_supported">In-App Donations are not supported. Is Google Play Store installed correctly?</string>
+    <string name="donations__google_android_market_description">Google takes 30 % off every donation!</string>
+    <string name="donations__google_android_market_donate_button">Donate!</string>
+    <string name="donations__google_android_market_text">How much?</string>
+    <string name="donations__paypal">PayPal</string>
+    <string name="donations__paypal_description">You can choose how much you want to donate after clicking the button!</string>
+    <string name="donations__thanks_dialog_title">Terima Kasih!</string>
+    <string name="donations__thanks_dialog">Terima kasih untuk donasi Anda!\nKami sangat menghargai hal ini!</string>
+    <string name="donations__alert_dialog_title">Error occurred</string>
+    <string name="donations__alert_dialog_no_browser">No browser was found to open a website!</string>
+    <string name="donations__bitcoin">Bitcoin</string>
+    <string name="donations__bitcoin_description">Send any amount of bitcoin to the developer. Press and hold button to copy address.</string>
+    <string name="donations__bitcoin_send_bitcoin_button">Send bitcoin!</string>
+    <string name="donations__bitcoin_toast_copy">Bitcoin address has been copied to the clipboard!</string>
+    <string name="title_activity_pengembang">Pengembang</string>
+    <string name="title_activity_tentang_kami">Tentang Kami</string>
+    <string name="title_activity_kontak_kami">Kontak Kami</string>
+</resources>
